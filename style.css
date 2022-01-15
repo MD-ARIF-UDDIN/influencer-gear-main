@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Moon+Dance&family=Poppins:wght@500&family=Quicksand&display=swap");
+body {
+  max-width: 1440px;
+  max-height: 3306px;
+  margin: auto;
+}
+body {
+  margin: 10px 120px;
+  font-family: "Poppins", sans-serif;
+  color: #3a3a3a;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+#top-bar h3 a {
+  text-decoration: none;
+  color: #3a3a3a;
+  font-size: 24px;
+  font-weight: 700px;
+}
+#navigation {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+#navigation li {
+  display: inline-block;
+  margin-left: 34px;
+}
+#navigation a {
+  text-decoration: none;
+  color: #3a3a3a;
+}

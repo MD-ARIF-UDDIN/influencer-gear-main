@@ -54,6 +54,9 @@ header {
   border-radius: 41px;
   padding: 10px 24px;
 }
+.prebook-now-button span {
+  padding-right: 8px;
+}
 
 /* ecommerce section */
 /* hr {

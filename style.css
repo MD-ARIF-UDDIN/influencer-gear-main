@@ -72,3 +72,12 @@ header {
 .site-logo img {
   margin: auto;
 }
+
+/* Item section */
+#collection-header {
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+}

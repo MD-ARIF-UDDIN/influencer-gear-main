@@ -139,14 +139,46 @@ li {
   cursor: pointer;
   margin-right: 20px;
 }
-.last-part {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
+.contact {
+  width: 50%;
+  margin: 100px auto;
 }
-.button-section {
-  padding-top: 10px;
+.contact-section {
+  font-family: "Poppins", sans-serif;
+  color: #e02c6d;
+  text-align: center;
+}
+.contact-section h3 {
+  color: #333333;
+}
+
+.input-btn {
+  height: 30px;
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.txtarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 50px;
+  border-radius: px;
+}
+.submit-button{
+  margin:0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:200px;
+  font-weight: 700px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #e02c6d;
+  border-style: none;
+  border-radius: 41px;
+  padding: 10px 24px;
 }
 
 /* Footer section */
@@ -164,13 +196,26 @@ footer {
   color: white;
   padding: 5px 10px;
 }
-/* responsive */
+
+/* responsive mobile*/
 @media (max-width: 576px) {
-  . {
+  *{
     overflow-x: hidden;
   }
   header {
     height: auto;
+  }
+  .prebook-now-button {
+    margin-left: 150px;
+  }
+  .container h2 {
+    text-align: center;
+  }
+   p{
+    text-align: center;
+  }
+  .htag {
+    text-align: center;
   }
   .container {
     width: 100%;
@@ -193,5 +238,58 @@ footer {
   }
   .first-section {
     flex-direction: column;
+  }
+  .contact {
+    width: 80%;
+    margin: 0, auto;
+  }
+}
+
+
+/* responsive tab*/
+@media (min-width:577px) and (max-width:768px) {
+  *{
+    overflow-x: hidden;
+  }
+  header {
+    height: auto;
+  }
+  .prebook-now-button {
+    margin-left: 150px;
+  }
+  .container h2 {
+    text-align: center;
+  }
+   p{
+    text-align: center;
+  }
+  .htag {
+    text-align: center;
+  }
+  .container {
+    width: 100%;
+  }
+  .site-logo img {
+    width: 50%;
+  }
+  .collections {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+  }
+  .collections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .see-more {
+    padding-right: 80px;
+  }
+  .first-section {
+    flex-direction: column;
+  }
+  .contact {
+    width: 80%;
+    margin: 0, auto;
   }
 }

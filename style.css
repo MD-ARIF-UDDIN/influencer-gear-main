@@ -162,12 +162,12 @@ li {
   margin-bottom: 50px;
   border-radius: px;
 }
-.submit-button{
-  margin:0 auto;
+.submit-button {
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  width:200px;
+  width: 200px;
   font-weight: 700px;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -196,7 +196,7 @@ footer {
 
 /* responsive mobile*/
 @media (max-width: 576px) {
-  *{
+  * {
     overflow-x: hidden;
   }
   header {
@@ -208,9 +208,7 @@ footer {
   .container h2 {
     text-align: center;
   }
-   p{
-    text-align: center;
-  }
+
   .htag {
     text-align: center;
   }
@@ -242,13 +240,12 @@ footer {
   }
 }
 
-
 /* responsive tab*/
-@media (min-width:577px) and (max-width:768px) {
-  *{
+@media (min-width: 577px) and (max-width: 768px) {
+  * {
     overflow-x: hidden;
   }
-  .first-paragraph{
+  .first-paragraph {
     text-align: center;
   }
   header {
@@ -260,7 +257,7 @@ footer {
   .container h2 {
     text-align: center;
   }
-  .first-paragraph{
+  .first-paragraph {
     text-align: center;
   }
   .htag {
@@ -277,8 +274,8 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 30px;
   }
-  .card{
-    width:100%;
+  .card {
+    width: 100%;
   }
   .see-more {
     padding-right: 90px;

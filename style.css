@@ -85,9 +85,17 @@ li {
   font-style: normal;
   font-weight: 600;
   font-size: 28px;
+  padding-bottom: 100px;
 }
-.collections {
-  box-shadow: 0px, 0px, 40px rgba(0, 0, 0, 0.15);
+
+.card {
+  margin-left: 15px;
+  padding: 15px;
+  width: 329px;
+  height: 476px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
 }
 .item-image {
   display: flex;
@@ -112,6 +120,8 @@ li {
   grid-column-gap: 30px;
   grid-row-gap: 30px;
 }
+/* Bonus section */
+
 .see-more {
   background-color: #ffffff;
   color: #e02c6d;
@@ -127,6 +137,7 @@ li {
   font-size: 16px;
   margin: 50px 0 30px 0;
   cursor: pointer;
+  margin-right: 20px;
 }
 .last-part {
   display: flex;
@@ -134,11 +145,9 @@ li {
   align-items: center;
   margin-top: 50px;
 }
-.details {
-  padding-left: 58px;
+.button-section {
+  padding-top: 10px;
 }
-
-/* Bonus section */
 
 /* Footer section */
 
@@ -156,7 +165,13 @@ footer {
   padding: 5px 10px;
 }
 /* responsive */
-@media only screen and (max-width: 688px) {
+@media (max-width: 576px) {
+  .{
+    overflow-x: hidden;
+  }
+  header{
+    height: auto;
+  }
   .container {
     width: 100%;
   }

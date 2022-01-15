@@ -75,10 +75,7 @@ li {
 }
 
 /* Item section */
-/* .item-collection {
-  margin-left: 196px;
-  margin-right: 196px;
-} */
+
 #collection-header {
   text-align: center;
   font-family: Poppins;
@@ -120,7 +117,6 @@ li {
   grid-column-gap: 30px;
   grid-row-gap: 30px;
 }
-/* Bonus section */
 
 .see-more {
   background-color: #ffffff;
@@ -139,6 +135,7 @@ li {
   cursor: pointer;
   margin-right: 20px;
 }
+/* contact section */
 .contact {
   width: 50%;
   margin: 100px auto;
@@ -251,6 +248,9 @@ footer {
   *{
     overflow-x: hidden;
   }
+  .first-paragraph{
+    text-align: center;
+  }
   header {
     height: auto;
   }
@@ -260,7 +260,7 @@ footer {
   .container h2 {
     text-align: center;
   }
-   p{
+  .first-paragraph{
     text-align: center;
   }
   .htag {
@@ -277,13 +277,11 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 30px;
   }
-  .collections {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  .card{
+    width:100%;
   }
   .see-more {
-    padding-right: 80px;
+    padding-right: 90px;
   }
   .first-section {
     flex-direction: column;
